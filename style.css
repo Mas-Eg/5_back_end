@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: top;
+  font-family: "Montserrat Alternates", sans-serif;
+  min-height: 90vh;
+}
+
+.content-header {
+  max-width:800px;
+  width: 100%;
+  padding: 20px;
+}
+
+.myform h2 {
+  text-align: center;
+}
+
+.myform label {
+    display: block;
+    margin-bottom: 3px;
+    margin-top: 5px;
+}
+
+.myform input[type="name"] ,
+.myform input[type="text"],
+.myform input[type="tel"],
+.myform input[type="email"],
+.myform input[type="date"],
+.myform textarea,
+.myform select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #8cd28e;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.knopka {
+  width: 100%;
+  padding: 12px;
+  margin-top:5px;
+  border-radius: 10px;
+  border: 2px solid #8cd28e;
+  background-color: #ffffff;
+  cursor: pointer;
+
+  transition: all 0.5s ease;
+}
+
+.knopka:hover {
+  background-color: #8cd28e;
+}
