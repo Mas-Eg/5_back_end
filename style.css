@@ -51,4 +51,55 @@ body {
 
 .knopka:hover {
   background-color: #8cd28e;
+.form-group { 
+  margin-bottom: 15px;
+}
+.error-field { 
+  border: 2px 
+  solid red !important; 
+  background-color: #ffeeee;
+}
+.error-message { 
+  color: red; 
+  font-size: 0.9em; 
+  margin-top: 4px; 
+}
+.success-message { 
+  color: green; 
+  background: #e6ffe6; 
+  padding: 10px; 
+  margin-bottom: 15px; 
+  border: 1px solid green;
+}
+.general-errors {
+  color: red;
+  background: #ffe6e6; 
+  padding: 10px; 
+  margin-bottom: 15px; 
+  border: 1px solid red;
+}
+.login-box { 
+  border: 1px 
+    solid #ccc; 
+  padding: 15px; 
+  margin-bottom: 20px; 
+  background: #f9f9f9;
+}
+.auth-info { 
+  margin-bottom: 15px;
+  background: #eef;
+  padding: 10px; 
+}
+.credentials {
+  background: #e6f7ff;
+  border: 1px solid #91d5ff;
+  padding: 10px;
+  margin: 15px 0; 
+}
+.label { display: inline-block;
+        margin-right: 10px;
+       }
+select[multiple] { 
+  min-width: 200px; 
+}
 }
